@@ -9,7 +9,7 @@ Body {
   width: 100vw;
   height: 100vh;
   min-height: 800px;
-  overflow: hidden;
+  overflow: scroll;
   color: white;
 }
 
