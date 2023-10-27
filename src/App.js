@@ -6,8 +6,8 @@ import 'aframe';
 
 function App() {
   const sceneRef = useRef(null);
-  const [url, setUrl] = useState('https://i.postimg.cc/d3LCTf90/vr-example-fixed.jpg');
-  const [vrUrl, setVrUrl] = useState('https://i.postimg.cc/cLG1H8dN/Panorama-piscina.jpg');
+  const [url, setUrl] = useState('https://i.postimg.cc/L5sj7j2D/Dia-3-Foto.jpg');
+  const [vrUrl, setVrUrl] = useState('https://i.postimg.cc/RZG4CfBK/VR-Piscina.jpg');
 
   const handleEnterVRClick = () => {
     if (sceneRef.current) {
