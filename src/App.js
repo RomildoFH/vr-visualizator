@@ -46,6 +46,7 @@ function App() {
         <a-scene ref={sceneRef} embedded vr-mode-ui="enabled: false">
           <a-sky src={vrUrl} rotation="0 -90 0"></a-sky>
         </a-scene>
+        <img src="https://cdn.pixabay.com/photo/2016/12/16/13/50/vr-1911451_1280.png" alt="homem-com-oculos-vr" className="decorator" />
     </main>
   );
 }

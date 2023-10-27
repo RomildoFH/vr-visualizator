@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+Body {
+  background-image: url('https://i.postimg.cc/mrZ0g23n/polygon-8038340-1280.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
 }
 
 .App-logo {
@@ -33,8 +43,15 @@
 }
 
 .image-preview {
-  width: 300px;
-  margin-bottom: 25px;
+  max-width: 300px;
+  margin: 0px 0.8rem 1.5rem 0px;
+  border-radius: 20px;
+}
+
+.image-preview:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 3px white;
+  transform: scale(1.05);
 }
 
 .image-container {
@@ -52,6 +69,22 @@
 .controller {
   background: none;
   border: none;
+  filter: invert(0.9);
+}
+
+.controller:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  filter: invert(1.2);
+}
+
+.decorator {
+  width: 25%;
+  min-width: 320px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  filter: drop-shadow(5px 5px 5px white);
 }
 
 @keyframes App-logo-spin {
