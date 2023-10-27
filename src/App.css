@@ -8,6 +8,7 @@ Body {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  min-height: 800px;
   overflow: hidden;
   color: white;
 }
@@ -82,9 +83,10 @@ Body {
   width: 25%;
   min-width: 320px;
   position: fixed;
-  bottom: 0;
+  bottom: 50px;
   left: 0;
   filter: drop-shadow(5px 5px 5px white);
+  z-index: -1;
 }
 
 @keyframes App-logo-spin {
